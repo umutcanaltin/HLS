@@ -1,5 +1,8 @@
 # EERL
-Efficient Evolutionary Reinforcement Learning Algorithm
+Efficient Evolutionary Reinforcement Learning Algorithms
+
+
+This repo contains genetic rl with reproduction reward also.
 
 
 
