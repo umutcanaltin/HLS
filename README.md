@@ -16,3 +16,9 @@ if reard exp t reward exp t+1 ile yakınsa iş yap
 değilse random hareket al
 
 
+
+Genel Fikirleri Buraya Not Alıyorum
+
+RL Ve Genetik iki ayrı networkün yönettiği ajanlar populasyonu oluştur.
+Rl ttarafına model based eklenebilir
+
