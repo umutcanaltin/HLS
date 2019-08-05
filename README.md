@@ -16,9 +16,20 @@ if reard exp t reward exp t+1 ile yakınsa iş yap
 değilse random hareket al
 
 
-
-Genel Fikirleri Buraya Not Alıyorum
+YENİ FİKİRLER
 
 RL Ve Genetik iki ayrı networkün yönettiği ajanlar populasyonu oluştur.
-Rl ttarafına model based eklenebilir
+Model based yaklaşımı çok basit tut. Bir network action ve state girdisi olsun, çıkışı next state ve reward olsun.
+Tek modelli veya her ajan için ayrı model oluşturabilirsin.
+Genetik ve politika tarafı üzerine biraz düşün ama model based tarafı aksiyon seçiminde kullanılabilir. Örnek: select action try it on model if it generates good reward take it, else try new action with genetic code or with prob of genetic code.
+
+İlk Mimari Denemesi:
+EVrimsel Pekiştirmeli ÖĞrenme algoritmasına model ekle. (Model BAsed Evolutionary Reinforcement Learning)
+
+İkinci Mimari Denemesi:
+Genetik Ve rl politikalarını ayır. Genetik politika sadece learning rate ve exploration prob çıktısı versin. rl politikayı bu paramaetrelerle güncelle. Rl politikaları erl algoritmasına sok. genetik politikayı sadece evrimsele sok.
+
+Üçüncü Mimari Denemesi :
+
+İkinci Mimariye model ekle.
 
