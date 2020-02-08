@@ -1,0 +1,1 @@
+void max_pooling( int kernel[2],float input[338],float * output,int output_size[3], int input_size[3]);
