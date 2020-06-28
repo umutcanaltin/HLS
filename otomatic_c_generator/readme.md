@@ -1,4 +1,4 @@
-# Tool Usage İnstructor
+# Tool Usage Instructions
 
 First user needs python script for training the model with datasets.
 
